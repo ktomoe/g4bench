@@ -28,6 +28,9 @@ See the License for more information.
 
 using namespace kut;
 
+// dummy link
+extern "C" int __cxa_thread_atexit(void (*dtor)(void *), void *obj, void *dso_symbol) {}
+
 namespace {
 // --------------------------------------------------------------------------
 void show_version()
