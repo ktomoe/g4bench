@@ -1,3 +1,7 @@
+An extension to support cross sompile for A64FX.
+
+./configure --prefix=XXXX --with-geant4-dir=XXXX --disable-vis --enable-mt
+
 ![g4bench](docs/img/logo.png)
 
 # G4Bench
