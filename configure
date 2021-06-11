@@ -168,7 +168,7 @@ if [ $enable_dev != _cmake ]; then
 fi
 
 # dirty hack
-cmake_option="${cmake_option} -DCMAKE_CXX_COMPILER=FCCpx -DCMAKE_C_COMPILER=fccpx"
+#cmake_option="${cmake_option} -DCMAKE_CXX_COMPILER=FCCpx -DCMAKE_C_COMPILER=fccpx"
 
 echo "]"
 echo " "
